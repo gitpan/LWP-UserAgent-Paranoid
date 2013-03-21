@@ -4,6 +4,9 @@ author:
   - 'Thomas Sibley <tsibley@cpan.org>'
 build_requires:
   ExtUtils::MakeMaker: 6.36
+  HTTP::Server::PSGI: 0
+  Test::Requires: 0
+  Test::TCP: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.36
 distribution_type: module
@@ -17,10 +20,12 @@ name: LWP-UserAgent-Paranoid
 no_index:
   directory:
     - inc
+    - t
 requires:
   LWP::UserAgent: 0
   LWPx::ParanoidHandler: 0
   Net::DNS::Paranoid: 0
+  Scalar::Util: 0
 resources:
   license: http://opensource.org/licenses/gpl-license.php
-version: 0.9
+version: 0.92
