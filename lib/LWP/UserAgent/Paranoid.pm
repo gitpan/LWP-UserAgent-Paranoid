@@ -11,9 +11,10 @@ LWP::UserAgent::Paranoid - A modern LWPx::ParanoidAgent for safer requests
 package LWP::UserAgent::Paranoid;
 use base 'LWP::UserAgent';
 
-our $VERSION = "0.93";
+our $VERSION = "0.94";
 
 use Scalar::Util          qw/ refaddr /;
+use Time::HiRes           qw/ alarm /;
 use LWPx::ParanoidHandler qw//;
 use Net::DNS::Paranoid    qw//;
 
@@ -21,7 +22,7 @@ use Net::DNS::Paranoid    qw//;
 
     use LWP::UserAgent::Paranoid;
     my $ua = LWP::UserAgent::Paranoid->new(
-        request_timeout => 5   # seconds
+        request_timeout => 5   # seconds; may be fractional
     );
 
     # use $ua as a normal LWP::UserAgent...
@@ -81,7 +82,8 @@ the following methods are available:
 =head2 request_timeout
 
 Gets/sets the timeout which encapsulates each logical request, including any
-redirects which are followed.  The default is 5 seconds.
+redirects which are followed.  The default is 5 seconds.  Fractional seconds
+are OK.
 
 =head2 resolver
 
