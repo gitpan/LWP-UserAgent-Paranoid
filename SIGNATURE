@@ -14,12 +14,12 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 ebac0a31b8609fe48572bf4400c1ebfd6f002c0f Changes
+SHA1 dbccb296f6a461d13501eecde7a280cae249b54a Changes
 SHA1 8152c81d42a827e3122977f342ba9a6689566f3d MANIFEST
 SHA1 8f1cf3152194e5d7a511c0ad8d50e2526eb5347e MANIFEST.SKIP
-SHA1 b338c3707939a9817b20fca8c7dfe0a177a029f2 META.yml
+SHA1 16d912ae977f3f5bc92ac02d89f8ff20f75e4025 META.yml
 SHA1 62f9f513112c2429a4035687e872cf8edfc6e865 Makefile.PL
-SHA1 f6df77b2da7c21c3ef63dfaf52d972ed0b180143 README
+SHA1 bec92360696dfa11b5b06a6b742d124267d03aa5 README
 SHA1 dc13ce0dbb488a5de81c3f6519ee31acda17397a inc/Module/Install.pm
 SHA1 91c20cbda8ca41b4e8f9e0390faff635c2ebe839 inc/Module/Install/Base.pm
 SHA1 eaf50ccbacecb797f0527deb0221c8264f6c8bd8 inc/Module/Install/Can.pm
@@ -29,14 +29,14 @@ SHA1 ff97eb025b44c343d026c2a56a73d50c65319e95 inc/Module/Install/Metadata.pm
 SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
 SHA1 4c5ce519d404e242418f51dfe761287469e18e3a inc/Module/Install/Win32.pm
 SHA1 47a52cf8719a283c0efa2edab0088b5d67e0f23a inc/Module/Install/WriteAll.pm
-SHA1 fa53689e8a6be222e7d639beb8c37f05be073ad5 lib/LWP/UserAgent/Paranoid.pm
+SHA1 c7656671716014d30edc7952541ef0d8f6fe96bf lib/LWP/UserAgent/Paranoid.pm
 SHA1 7f18e4fbb053584599acbe0ecc1b668148d3d807 lib/LWP/UserAgent/Paranoid/Test.pm
 SHA1 54951a9210952f72b964f1b5caecc536d789689e t/alarm.t
-SHA1 06831ee19f438221a31ca3b912e9069001a20c50 t/basic.t
+SHA1 1aa6e7ed58264de6ac8698e906e023fbc75d6967 t/basic.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.11 (GNU/Linux)
 
-iD8DBQFTozlvsea4n7ROSqERAg13AKCv0OWr6aG4Tfmicu4Lc7AbI+3PeQCgtDIi
-laCwvPCjKJLPmBsvmjxu1xE=
-=esOo
+iD8DBQFT5nRQsea4n7ROSqERAioNAJ4jtzUkU3Z7lFAdemSbqZfx91dLrACgm9V+
++212LXFt16IpLxRAxS9B2x4=
+=c0fO
 -----END PGP SIGNATURE-----
